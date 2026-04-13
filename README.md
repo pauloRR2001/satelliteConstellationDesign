@@ -99,7 +99,7 @@ See `geneticAlgorithm/README.md` for a short example of building a population an
 
 - Many example scripts in `satCons/` are structured as scripts (they run when executed) and produce plots. Inspect and adapt them directly if you want to run parts of the analysis or reuse functions.
 - Utility functions for coordinate conversions, orbital propagation and plotting are located under `functions/`. Useful files include `functions/converters/kep2cart.m`, `functions/propagators/keplerianPropUnperturbed.m`, and plotting helpers in `functions/plotters/`.
-- There is no assumption in this README about external toolboxes. Some scripts may use MATLAB toolboxes (for example plotting or parallelization) — check the top of each script for toolbox-specific calls.
+- There is no assumption in this README about external toolboxes. Some scripts may use MATLAB toolboxes (for example plotting or parallelization) â€” check the top of each script for toolbox-specific calls.
 
 ---
 
@@ -125,10 +125,3 @@ To contribute updates or fixes:
 
 ---
 
-## License
-
-No license file is present in the repository root. If you want to apply a license, add a LICENSE file (for example MIT) and update this README accordingly.
-
----
-
-If you want the README to include additional runnable examples or to expose a specific script as the canonical entry point, tell me which file(s) you want promoted and I will update the README to show exact commands and example input/outputs.
